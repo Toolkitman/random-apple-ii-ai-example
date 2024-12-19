@@ -1,0 +1,16 @@
+This is an ai chatbot i have developed in Jenuary 2020 it use some pre built sentences and you can answer yes or no and get a reply
+from the Apple ii that can be different by the previous choosen yes or no. This is born before my TINA Apple II chatbot.
+code:
+
+10 J = INT (6 * RND(1))+1
+20 IF J = 1 THEN PRINT "ARE YOU OK":INPUT F$:GOTO 80
+30 IF J = 2 THEN PRINT "DO YOU LIVE IN GERMANY": INPUT F$:GOTO 80
+40 IF J = 3 THEN PRINT "DO YOU LIKE FOOTBALL": INPUT F$:GOTO 80
+50 IF J = 4 THEN PRINT "DO YOU WANT A DRINK": INPUT F$:GOTO 80
+60 IF J = 5 THEN PRINT "DO YOU WANT A SNAK": INPUT F$:GOTO 80
+70 IF J = 6 THEN PRINT "ARE YOU TIRED": INPUT F$:GOTO 80
+80 IF F$ = "YES" THEN PRINT "OK"
+90 IF F$ <> "YES" THEN PRINT "OH NOOOO!"
+100 GOTO 10 :CLEAR
+
+copy paste the code in your apple ii emulatora and write RUN and press RETURN to give it a try.
